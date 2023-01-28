@@ -1,15 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=\, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
   <title>угадай число игра</title>
 </head>
 
 <body>
+  <container class="container">
+    <div class="canvas">
 
+      <div class="description">
+        <h1 class="desc-title">УГАДАЙ число</h1>
+        <p class="desc-subtitle">компьютер загадал число от 1 до 100. Ваша задача его угадать.</p>
+      </div>
+
+      <div class="resault-help">
+        <span class="resault-help">подсказка: </span>
+        <span class="resault-help-out"></span>
+      </div>
+
+      <div class="field">
+        <label for="" class="field-form-label">ваше число: </label>
+        <input type="text" class="field-form-label">
+        <button class="field-form-btn">угадать</button>
+      </div>
+
+      <div class="resault-count">
+        <span class="resault-count-label">у вас осталось попыток: </span>
+        <span class="resault-count-out"></span>
+      </div>
+
+    </div>
+  </container>
 </body>
 
 </html>
