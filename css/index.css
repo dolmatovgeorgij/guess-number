@@ -28,10 +28,6 @@ body{
   text-transform: uppercase;
 }
 
-
-   
-
-
 .field-form-btn{
   color: yellow;
   background-color:black ;
@@ -41,6 +37,7 @@ body{
   margin-top: 30px;
   font-size: 25px;
   text-transform: uppercase;
+  
 }
 
 .field-form-label{
