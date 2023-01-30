@@ -11,7 +11,6 @@ body{
   height: 100%;
   border: 2px;
   background-color: olive;
-  
 }
 
 .container{
@@ -38,6 +37,16 @@ body{
   font-size: 25px;
   text-transform: uppercase;
   
+}
+
+.field-form-btn:hover{
+   background-color: brown;
+}
+
+
+
+.field-form-btn:focus{
+  cursor: pointer;
 }
 
 .field-form-label{
